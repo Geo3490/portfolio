@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/73fab75a87.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+    <section class ="hero">
+        <nav>
+            <img class ="logo" src="imgport/laptop.png" alt="computer-logo">
+            <ul id ="nav-list">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+                <button class ="hamburger" id ="hamburger">
+               <i class ="fas fa-bars"></i>
+            </button>
+        </nav>
+         <div class ="hero-area">
+            <div class="hero-text">
+            <h1>George Elefsiades</h1>
+            <p class ="h1-info">Full Stack Developer</p>
+            <div class="button"> <a href="#about-me">About Me</a></div>
+        </div>
+    </div>
+    </section>
+    <section class ="sub-section" id ="about-me">
+        <div class="information">
+            <h2>About Me</h2>
+            <p>Hello, My name is George Elefsiades. I am a software developer with a passion to learn.</p>
+        </div>
+<div class="mypicture-container">
+    <img class ="mypicture" src="imgport/Me.jpg" alt="George picture">
+</div>
+    </section>
+    <section class ="subsection-alt" id ="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img class ="project-img" src="imgport/weather.png" alt="George project one">
+                <h3>Project 1</h3>
+                <p class="subtext">This is my project and some text about it. I enjoyed creating this.</p>
+                <hr/>
+                <p class ="subtext"> <a class ="project-link" href="https://www.github.com/Geo3490">View Here</a></p>
+        </div>
+            <div class="project-card">
+                <img class ="project-img" src="imgport/employeedata.png" alt="George project two">
+                <h3>Project 2</h3>
+                <p class="subtext">This is my project and some text about it. I enjoyed creating this.</p>
+                <hr/>
+                <p class ="subtext"><a class ="project-link" href="https://www.github.com/Geo3490">View Here</a></p>
+        </div>
+            <div class="project-card">
+                <img class ="project-img" src="imgport/java-icon.png" alt="George project three">
+                <h3>Project 3</h3>
+                <p class="subtext">This is my project and some text about it. I enjoyed creating this.</p>
+                <hr/>
+                <p class ="subtext"><a class ="project-link" href="https://www.linkedin.com/in/george-elefsiades-913546224/">View Here</a></p>
+            </div>
+        </div>
+    </section>
+    <footer id ="contact">
+  <div class="container-contact">
+      <div class="contact-box">
+            <h2>Contact Me</h2>
+            <form action="https://formsubmit.co/geo40127@gmail.com" method="POST">
+                <input type="text" name="name" placeholder ="Name" required>
+                <input type="text" name="email" placeholder ="Email" required>
+                <textarea name="message" cols ="10" rows ="10" class ="field" placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+           </form>
+      </div>
+  </div>
+    </footer>
+<script src="portfolio.js"></script>
+</body>
+</html>
